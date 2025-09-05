@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Aula Global Quick Access",
+  "version": "1.0",
+  "description": "This extension allows users to set up links to different subjects at the start of each tab in Aula Global.",
+  "content_scripts": [
+    {
+      "matches": ["https://aulaglobal.uc3m.es/*"],
+      "js": ["content.js"],
+      "css": ["colourful_style.css"]
+    }
+  ]
+}

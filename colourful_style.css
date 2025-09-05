@@ -1,0 +1,43 @@
+#subject-menu {
+  background: linear-gradient(90deg, #1a4d8f, #3a78c2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #0d2b4d;
+  max-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  padding: 12px 0;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
+#subject-menu a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 18px;
+  white-space: nowrap;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Individual subject button colors */
+#subject-menu a:nth-child(1) { background: linear-gradient(135deg, #ff8c00, #ffa500); }
+#subject-menu a:nth-child(2) { background: linear-gradient(135deg, #ffeb3b, #fdd835); }
+#subject-menu a:nth-child(3) { background: linear-gradient(135deg, #34d399, #10b981); }
+#subject-menu a:nth-child(4) { background: linear-gradient(135deg, #40e0d0, #48d1cc); }
+#subject-menu a:nth-child(5) { background: linear-gradient(135deg, #3a78c2, #1a4d8f); }
+#subject-menu a:nth-child(6) { background: linear-gradient(135deg, #ff4d4d, #ff0000); }
+#subject-menu a:nth-child(7) { background: linear-gradient(135deg, #ffffff, #f0f0f0); color: #000; }
+
+#subject-menu a:hover {
+  filter: brightness(1.2);
+  transform: scale(1.12);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+}
