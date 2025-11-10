@@ -5,7 +5,7 @@
   "description": "This extension allows users to set up links to different subjects at the start of each tab in Aula Global.",
   "content_scripts": [
     {
-      "matches": ["https://aulaglobal.uc3m.es/*"],
+      "matches": ["https://aulaglobal.uc3m.es/", "https://aulaglobal.uc3m.es/course/*"],
       "js": ["content.js"],
       "css": ["colourful_style.css"]
     }

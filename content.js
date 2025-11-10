@@ -2,7 +2,6 @@ const subjects = [
   { name: "CCT", url: "https://aulaglobal.uc3m.es/course/view.php?id=194629" },
   { name: "CS",  url: "https://aulaglobal.uc3m.es/course/view.php?id=194620" },
   { name: "ESS", url: "https://aulaglobal.uc3m.es/course/view.php?id=194621" },
-  { name: "PD",  url: "https://aulaglobal.uc3m.es/course/view.php?id=194622" },
   { name: "SC",  url: "https://aulaglobal.uc3m.es/course/view.php?id=194623" },
   { name: "TC",  url: "https://aulaglobal.uc3m.es/course/view.php?id=194624" },
   { name: "SEM", url: "https://aulaglobal.uc3m.es/course/view.php?id=194625" },
