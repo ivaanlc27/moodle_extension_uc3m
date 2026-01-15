@@ -1,10 +1,16 @@
 const subjects = [
+<<<<<<< HEAD
   { name: "AFSI", url: "https://aulaglobal.uc3m.es/course/view.php?id=194635" },
   { name: "AIM",  url: "https://aulaglobal.uc3m.es/course/view.php?id=194633" },
   { name: "APT",  url: "https://aulaglobal.uc3m.es/course/view.php?id=194634" },
   { name: "GAC", url: "https://aulaglobal.uc3m.es/course/view.php?id=194627" },
   { name: "IYA", url: "https://aulaglobal.uc3m.es/course/view.php?id=194626" },
   { name: "SEM", url: "https://aulaglobal.uc3m.es/course/view.php?id=194628" }
+=======
+  { name: "ESS", url: "https://aulaglobal.uc3m.es/course/view.php?id=194621" },
+  { name: "SC",  url: "https://aulaglobal.uc3m.es/course/view.php?id=194623" },
+  { name: "SEM", url: "https://aulaglobal.uc3m.es/course/view.php?id=194625" }
+>>>>>>> main
 ];
 
 // Create the menu container
